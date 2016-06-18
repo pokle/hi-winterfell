@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   "classes" : {
     "input" : "form-control",
     "select" : "form-control",
