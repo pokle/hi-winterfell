@@ -1,7 +1,8 @@
 import 'babel-polyfill'
 import React from 'react'
 import ReactDOM from 'react-dom'
-
+import Winterfell from 'winterfell';
+import schema from './schema';
 
 class App extends React.Component {
 
@@ -9,6 +10,7 @@ class App extends React.Component {
     return (
       <div>
         <h1>Hi WinterFell!</h1>
+        <Winterfell schema={schema} />
       </div>
     )
   }
